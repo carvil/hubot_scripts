@@ -6,8 +6,6 @@
 # ->Jamon Jamon
 
 jsdom = require "jsdom"
-util  = require "util"
-
 
 module.exports = (robot) ->
   robot.respond /what's on eat.st/i, (msg) ->
